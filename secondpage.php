@@ -29,12 +29,8 @@ if (($_SESSION['username'] == 'Andy') and
  </head>
  <body>
 <?php
-    echo "Mi plato favorito es ";
-    echo $_GET['plato'];
-    $notaplato = 10;
-    echo "<br>";
-    echo "Mi puntuacion para este plato es: ";
-    echo $notaplato;
+    echo "Bienvenido, has inciado usuario correctamente ";
+   
 ?>
  </body>
 </html>
